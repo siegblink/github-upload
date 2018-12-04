@@ -1,0 +1,24 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto auto 10px;
+}
+
+button {
+  width: 150px;
+  /* border: #00000000 1px solid; */
+  margin-bottom: 0.25rem;
+  border-radius: 0.25rem;
+  /* color: #fff;
+  background-color: #007bff;
+  border-color: #007bff; */
+  padding: 0.210rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+button:focus {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
